@@ -14,7 +14,7 @@ include(FetchContent)
 if(NOT DEFINED slicersources_SOURCE_DIR)
   # Download Slicer sources and set variables slicersources_SOURCE_DIR and slicersources_BINARY_DIR
   FetchContent_Populate(slicersources
-    GIT_REPOSITORY ${EP_GIT_PROTOCOL}://github.com/Slicer/Slicer
+    GIT_REPOSITORY ${EP_GIT_PROTOCOL}://github.com/dwijmistry11/DwijGraphicsCore.git
     GIT_TAG        01984729eca68f0417ead58d87d3358912f094d4
     GIT_PROGRESS   1
     )
